@@ -1,0 +1,5 @@
+services:
+  conda-env-service:
+    build: .
+    container_name: conda-env-container
+    command: ["python", "main.py"]
